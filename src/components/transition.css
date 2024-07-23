@@ -1,0 +1,15 @@
+.form-transition {
+  transition: all 0.3s ease-in-out;
+}
+
+.collapse:not(.show) {
+  display: block;
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+}
+
+.collapse.show {
+  height: auto;
+  opacity: 1;
+}

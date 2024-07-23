@@ -1,0 +1,55 @@
+body {
+  background-color: #f8f9fa;
+}
+
+.bg-gradient-primary {
+  background: linear-gradient(45deg, #4e54c8, #8f94fb);
+}
+
+.form-control:focus {
+  box-shadow: 0 0 0 0.25rem rgba(78, 84, 200, 0.25);
+}
+
+.btn-primary {
+  background-color: #4e54c8;
+  border-color: #4e54c8;
+}
+
+.btn-primary:hover {
+  background-color: #3f44a1;
+  border-color: #3f44a1;
+}
+
+.card {
+  border: none;
+  border-radius: 15px;
+}
+
+.table {
+  border-collapse: separate;
+  border-spacing: 0 8px;
+}
+
+.table tbody tr {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+}
+
+.table tbody tr td {
+  background-color: #fff;
+  border: none;
+}
+
+.table tbody tr td:first-child {
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.table tbody tr td:last-child {
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
